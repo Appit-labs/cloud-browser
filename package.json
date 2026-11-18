@@ -1,0 +1,27 @@
+{
+  "name": "cloud-browser",
+  "version": "0.1.0",
+  "description": "Hosted/stealth cloud browser sessions through agent-browser providers \u2014 plus the sweep that stops orphaned browsers so they stop billing.",
+  "license": "MIT",
+  "keywords": [
+    "agent-skill",
+    "pi-package",
+    "claude-code-plugin",
+    "codex-skill"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  },
+  "files": [
+    "skills",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibrahimbdr/cloud-browser.git"
+  }
+}

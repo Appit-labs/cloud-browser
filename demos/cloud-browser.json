@@ -1,0 +1,18 @@
+{
+  "skill": "cloud-browser",
+  "out": "cloud-browser/demo.gif",
+  "caption": "cloud-browser \u2014 stop what nobody closed",
+  "steps": [
+    {
+      "cmd": "stop_all.py --dry-run",
+      "phase": "payoff",
+      "out": [
+        "id            state      started",
+        "cc076e51\u2026     stopped    2026-10-18T17:00",
+        "4a5c690c\u2026     stopped    2026-10-18T17:00",
+        "",
+        "2 would be stopped (dry run)"
+      ]
+    }
+  ]
+}
