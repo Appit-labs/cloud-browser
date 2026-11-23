@@ -1,6 +1,6 @@
 {
-  "name": "cloud-browser",
-  "version": "0.1.1",
+  "name": "@appitlabs/cloud-browser",
+  "version": "0.1.2",
   "description": "Hosted/stealth cloud browser sessions through agent-browser providers \u2014 plus the sweep that stops orphaned browsers so they stop billing.",
   "license": "MIT",
   "keywords": [
@@ -33,5 +33,9 @@
       "name": "Appit Labs",
       "url": "https://github.com/Appit-Labs"
     }
-  ]
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
 }
