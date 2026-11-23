@@ -7,6 +7,7 @@ allowed-tools:
 permissions:
   - network
   - env
+license: MIT
 ---
 
 # Hosted cloud browser
@@ -23,6 +24,8 @@ from a shell, which works in every agent:
 ```bash
 agent-browser -p browseruse open https://example.com
 ```
+
+**Not for:** ordinary browsing where a local browser works — that is faster and free, so use `live-qa` instead. Reach for this when a site blocks local headless, or a run must outlive your machine.
 
 ## Portability
 
